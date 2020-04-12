@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.btn-link:hover, .btn-link:focus {
+    text-decoration: none;
+}
+ul {
+    padding-left: 15px;
+}
+a {
+    text-decoration: underline;
+}
+ol {
+    padding-left: 15px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .p, h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background: grey;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #646464;
+    background: grey;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+}
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 55px;
+	font-weight: 700;
+	color: red;
+}
+h4 {
+	font-family: 'Playfair Display', serif;
+	font-size: 28px;
+	font-weight: 700;
+	color: red;
+	padding-top: 30px;
+    padding-bottom: 20px;
+}
+p {
+    padding-bottom: 7px;
+    margin-right: 50px;
+}
+span {
+    font-weight: 500;
+}
+.padding-l {
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+.padding-r {
+	padding-left: 30px;
+	padding-bottom: 40px;
+}
+img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.left-page {
+    float: left;
+}
+.right-page {
+    float: right;
+}
+.clr {
+    clear: both;
+}
+.right-page ul li p {
+    padding-left: 10px;
+}
+.right-page ol li p {
+    padding-left: 10px;
+}
+.black {
+    color: black;
+    font-weight: 600;
+}
+.last-black {
+	font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+/* Style page content */
+.main {
+	height: 80%;
+	width: 1130px;
+	position: fixed;
+	z-index: 999;
+	top: 100px;
+	left: 356px;
+	background-color: #fff;
+	overflow-x: hidden;
+	padding: 0 80px;
+}
+/*--===== Navbar part start =====--*/
+ /* The sidebar menu */
+.sidenav {
+	height: 448px;
+	width: 356px;
+	position: fixed;
+	z-index: 999;
+	top: 100px;
+	left: 0;
+	background-color: #6565ff;
+	overflow-x: hidden;
+	padding-top: 50px;
+	border-bottom: 2px solid #000;
+}
+.navads {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    z-index: 999;
+    top: 100px;
+    right: 0;
+    background-color: #be32be;
+    overflow-x: hidden;
+}
+/* The navigation menu links */
+.sidenav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 1px 20px 1px 65px;
+    border-top: 2px solid black;
+}
+.sidenav a i {
+	font-size: 14px;
+	color: #fff;
+	position: relative;
+	left: 224PX;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #363434;
+}
+.sidenav a.active {
+    color: #000;
+}
+.sidenav a.active i {
+    color: #000;
+    transform: rotate(-90deg);
+    
+}
+/*--===== Banner part start =====--*/
+#banner {
+	background: url(../images/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
+    background-attachment: fixed;
+}
+/*--===== First-page part start =====--*/
+.first-page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sce-page{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pa-top-10 {
+    padding-top: 10px;
+}
+.pa-top-20 {
+    padding-top: 20px;
+}
+.pa-top-30 {
+    padding-top: 30px;
+}
+.pa-top-40 {
+    padding-top: 40px;
+}
+.pa-top-60 {
+    padding-top: 60px;
+}
+.pa-top-80 {
+    padding-top: 80px;
+}
+.pa-top-100 {
+    padding-top: 100px;
+}
+.pa-top-150 {
+    padding-top: 150px;
+}
+.pa-top-200 {
+    padding-top: 200px;
+}
+.pa-top-400 {
+    padding-top: 400px;
+}
+.history h2 {
+    font-family: 'Gotu', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.lefter {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #646464;
+    font-style: normal;
+    line-height: -10px;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
